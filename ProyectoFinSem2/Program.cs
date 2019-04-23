@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProyectoFinSem2.Classes;
 
 namespace ProyectoFinSem2
 {
@@ -10,6 +11,8 @@ namespace ProyectoFinSem2
     {
         static void Main(string[] args)
         {
+            MasterControl mstrcntrl = new MasterControl();
+            mstrcntrl.Jugar();
         }
     }
 }

@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\CaracteresInvalidos.cs" />
+    <Compile Include="Classes\Jugador.cs" />
+    <Compile Include="Classes\MasterControl.cs" />
+    <Compile Include="Classes\Personajes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CaracteresEspeciales.txt" />
+    <Content Include="Personajes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
